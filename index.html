@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f2f2f7">
+<meta name="description" content="Privacy Policy for Protection Bot. Learn how information may be processed when using the Telegram bot.">
+<title>Privacy Policy · Protection Bot</title>
+<style>
+:root{color-scheme:light;--bg:#f2f2f7;--ink:#171923;--muted:#8b8d99;--purple:#b64be5;--blue:#4964f5;--green:#4ebd7a;--line:#ececf2;--card:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:18px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+a{color:#7355c8;text-decoration:none}a:hover{text-decoration:underline}
+.page{max-width:760px;margin:0 auto;padding:18px 16px 42px}
+.topbar{display:flex;align-items:center;gap:12px;padding:7px 4px 18px}
+.brandmark{width:43px;height:43px;display:grid;place-items:center;border-radius:15px;background:#fff;box-shadow:0 4px 16px #23234a0b}
+.brandmark svg{width:27px;height:27px}
+.brand{font-size:1.02rem;font-weight:750;letter-spacing:-.02em}
+.brand small{display:block;color:var(--muted);font-size:.78rem;font-weight:500;letter-spacing:0}
+.top-pill{margin-left:auto;padding:7px 13px;border-radius:999px;background:linear-gradient(120deg,#c84de9,#7c5cf5);color:#fff;font-size:.78rem;font-weight:750}
+.hero{position:relative;overflow:hidden;border-radius:30px;padding:32px 24px 28px;text-align:center;color:#fff;background:linear-gradient(160deg,#4a4ff3 0%,#4d8cf6 48%,#8bd9f0 100%);box-shadow:0 16px 36px #5c7cf22b}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff32;border-radius:50%;width:160px;height:160px;pointer-events:none}
+.hero:before{left:-75px;top:-78px}.hero:after{right:-95px;bottom:-115px;width:220px;height:220px}
+.shield{position:relative;z-index:1;margin:0 auto 12px;width:82px;height:91px;display:grid;place-items:center}
+.shield svg{width:82px;height:91px;filter:drop-shadow(0 6px 8px #2148b12b)}
+.hero h1{position:relative;z-index:1;margin:0;font-size:clamp(1.8rem,6vw,2.55rem);line-height:1.15;letter-spacing:-.045em}
+.hero .sub{position:relative;z-index:1;margin:10px auto 0;color:#f4fbff;font-size:.97rem}
+.updated{position:relative;z-index:1;display:inline-flex;align-items:center;gap:7px;margin-top:18px;padding:7px 12px;border-radius:999px;background:#ffffff25;border:1px solid #ffffff35;font-size:.77rem;color:#fff}
+.quickstats{display:grid;grid-template-columns:1fr 1fr;background:#fff;border-radius:24px;margin:16px 0;padding:15px 0;box-shadow:0 8px 25px #34345c08}
+.stat{display:flex;align-items:center;gap:12px;padding:4px 20px;min-width:0}
+.stat+.stat{border-left:1px solid #e7e7ee}
+.stat-icon{width:43px;height:43px;flex:0 0 43px;border-radius:14px;background:#f4eaff;color:var(--purple);display:grid;place-items:center}
+.stat-icon.green{background:#eaf9ef;color:var(--green)}
+.stat-icon svg{width:23px;height:23px}
+.stat strong{display:block;font-size:.96rem;font-weight:750;line-height:1.25}
+.stat span{display:block;color:var(--muted);font-size:.79rem;line-height:1.35;margin-top:3px}
+.section-heading{font-size:1.02rem;font-weight:750;margin:24px 4px 10px;letter-spacing:-.02em}
+.card{background:var(--card);border-radius:24px;padding:21px 20px;margin:12px 0;box-shadow:0 8px 25px #34345c07;border:1px solid #ffffff}
+.card-head{display:flex;align-items:flex-start;gap:13px;margin-bottom:13px}
+.card-icon{width:43px;height:43px;flex:0 0 43px;border-radius:14px;background:#edf3ff;color:#4b78e8;display:grid;place-items:center}
+.card-icon svg{width:22px;height:22px}
+.card h2{font-size:1.05rem;margin:0 0 3px;line-height:1.35;letter-spacing:-.02em}
+.card .eyebrow{font-size:.8rem;color:var(--green);margin:0}
+.card p{font-size:.91rem;color:#555968;margin:10px 0}
+.card ul{font-size:.91rem;color:#555968;margin:9px 0;padding-left:21px}
+.card li{padding:3px 0}
+.contents{display:flex;gap:8px;flex-wrap:wrap}
+.contents a{display:inline-block;padding:7px 10px;border:1px solid #e9e5f7;background:#faf8ff;border-radius:999px;font-size:.79rem}
+.callout{background:#f2f7ff;border-left:3px solid #4f81ed;border-radius:0 14px 14px 0;padding:13px 14px;color:#425574;font-size:.87rem;margin-top:14px}
+.contact-link{display:inline-flex;align-items:center;gap:8px;padding:11px 14px;background:#f4eaff;border-radius:13px;font-weight:700;overflow-wrap:anywhere}
+.placeholder{color:#8b8d99}
+footer{text-align:center;padding:25px 8px 0;color:#9899a4;font-size:.79rem}
+@media(min-width:640px){.page{padding-top:24px}.hero{padding:40px 32px 32px}.card{padding:24px 25px}.stat{padding-left:30px}.stat+.stat{padding-left:30px}}
+@media(max-width:390px){.page{padding-left:11px;padding-right:11px}.hero{padding:27px 16px 24px;border-radius:25px}.stat{padding:4px 12px;gap:8px}.stat-icon{width:37px;height:37px;flex-basis:37px}.card{padding:18px 16px}.top-pill{font-size:.72rem}}
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="topbar">
+    <div class="brandmark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5 20 5.6v5.8c0 5.1-3.4 8.4-8 10.1-4.6-1.7-8-5-8-10.1V5.6L12 2.5Z" fill="#eaf2ff" stroke="#4f83ed" stroke-width="1.5"/><path d="m8 12.1 2.5 2.5 5.6-6" stroke="#4f83ed" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="brand">Protection Bot <small>Privacy &amp; Transparency</small></div>
+    <div class="top-pill">✓ Official Policy</div>
+  </header>
+
+  <section class="hero">
+    <div class="shield" aria-hidden="true">
+      <svg viewBox="0 0 88 98" fill="none"><path d="M44 3 81 17v27c0 24-16 40-37 50C23 84 7 68 7 44V17L44 3Z" fill="#fff"/><path d="M44 12 72 23v21c0 18-11 31-28 40-17-9-28-22-28-40V23l28-11Z" fill="#eaf4ff" stroke="#d9e9ff" stroke-width="2"/><path d="m28 48 11 11 23-26" stroke="#4387ed" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="sub">Your privacy matters. Here’s how Protection Bot may handle information.</p>
+    <div class="updated">▣ &nbsp; Last updated: October 17, 2026</div>
+  </section>
+
+  <section class="quickstats" aria-label="Policy highlights">
+    <div class="stat">
+      <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 20 6v5.5c0 4.8-3.2 7.8-8 9.5-4.8-1.7-8-4.7-8-9.5V6l8-3Z" stroke="currentColor" stroke-width="1.8"/><path d="m8 12 2.5 2.5L16 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><strong>Privacy first</strong><span>Information handled for bot operations</span></div>
+    </div>
+    <div class="stat">
+      <div class="stat-icon green"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5 9.2 17 19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/></svg></div>
+      <div><strong>No data sales</strong><span>We do not sell personal information</span></div>
+    </div>
+  </section>
+
+  <h2 class="section-heading">Explore this policy</h2>
+  <div class="card">
+    <div class="contents">
+      <a href="#about">About</a><a href="#data">Information</a><a href="#usage">How it’s used</a><a href="#permissions">Permissions</a><a href="#sharing">Sharing</a><a href="#security">Security</a><a href="#deletion">Deletion</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <section class="card" id="about">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v5M12 7.5h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div><h2>1. About Protection Bot</h2><p class="eyebrow">What this policy covers</p></div></div>
+    <p>Protection Bot (“we,” “our,” or “the Bot”) is a Telegram bot intended to assist channel and group administrators with management and protection-related settings. Available features depend on the current version of the Bot and the permissions granted to it.</p>
+    <p>This policy explains information that may be processed when you interact with the Bot or connect a Telegram channel or group.</p>
+  </section>
+
+  <section class="card" id="data">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="5" rx="8" ry="3" stroke="currentColor" stroke-width="1.8"/><path d="M4 5v7c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12v7c0 1.7 3.6 3 8 3s8-1.3 8-3v-7" stroke="currentColor" stroke-width="1.8"/></svg></div><div><h2>2. Information that may be processed</h2><p class="eyebrow">Only as needed for operation</p></div></div>
+    <p>Depending on how the Bot is configured and used, it may process:</p>
+    <ul><li>Telegram user IDs and basic profile details made available by Telegram.</li><li>Channel or group IDs, titles, and relevant administrator or connection status.</li><li>Settings and preferences selected by users or authorized administrators.</li><li>Updates or event details made available by Telegram and needed for a requested feature.</li><li>Limited technical logs used to troubleshoot errors, maintain reliability, or investigate misuse.</li></ul>
+    <p>The exact information depends on the Bot’s actual code, configuration, and permissions. The Bot should collect only information needed for its real features.</p>
+  </section>
+
+  <section class="card" id="usage">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v12H8l-4 3V5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 9h8M8 13h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><div><h2>3. How information may be used</h2><p class="eyebrow">Providing and maintaining the service</p></div></div>
+    <p>Information may be used to provide requested bot functions, remember administrator settings, display results where supported, troubleshoot issues, prevent abuse, maintain service security, and respond to support requests.</p>
+    <p>We do not sell personal information or claim that the Bot provides monitoring or protection features that it does not actually support.</p>
+  </section>
+
+  <section class="card" id="permissions">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 20 6v5.5c0 4.8-3.2 7.8-8 9.5-4.8-1.7-8-4.7-8-9.5V6l8-3Z" stroke="currentColor" stroke-width="1.8"/><path d="M9 12h6M12 9v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><div><h2>4. Telegram permissions</h2><p class="eyebrow">You remain in control</p></div></div>
+    <p>Some features may require the Bot to be added to a channel or group or to receive administrator permissions. Grant only permissions necessary for your intended use. Administrators can review permissions, remove the Bot, or revoke its access through Telegram.</p>
+    <div class="callout">Security tip: Never send your Telegram login code, password, bot token, recovery code, or private key to the Bot or to anyone claiming to provide support.</div>
+  </section>
+
+  <section class="card" id="sharing">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="18" cy="5" r="3" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="19" r="3" stroke="currentColor" stroke-width="1.8"/><path d="m8.7 10.7 6.6-4.4M8.7 13.3l6.6 4.4" stroke="currentColor" stroke-width="1.8"/></svg></div><div><h2>5. Sharing and disclosure</h2><p class="eyebrow">No sale of personal information</p></div></div>
+    <p>Information may be processed by Telegram and by hosting or infrastructure providers used to run the Bot. It may also be disclosed where required by applicable law, to address security incidents or abuse, or when an authorized user requests an action that requires disclosure.</p>
+  </section>
+
+  <section class="card" id="security">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="11" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><div><h2>6. Security</h2><p class="eyebrow">Reasonable safeguards</p></div></div>
+    <p>Reasonable measures should be used to protect stored information against unauthorized access, loss, or misuse. No online service can guarantee absolute security. Access to server accounts, databases, and bot tokens should be restricted and protected.</p>
+  </section>
+
+  <section class="card" id="deletion">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M9 7V4h6v3m-9 0 1 13h10l1-13M10 11v5M14 11v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><h2>7. Retention and deletion</h2><p class="eyebrow">Requests can be reviewed</p></div></div>
+    <p>Information should be kept only as long as reasonably necessary for the purposes described in this policy, subject to legal, security, and operational requirements. When information is no longer needed, it should be deleted or de-identified where reasonably possible.</p>
+    <p>You may request deletion of information associated with your use of the Bot by contacting the operator below. Some records may need to be retained where required by law or for legitimate security purposes.</p>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/></svg></div><div><h2>8. Your choices &amp; third-party services</h2><p class="eyebrow">Manage your access</p></div></div>
+    <p>You can stop interacting with the Bot, remove it from a channel or group, or revoke its permissions. You may contact the operator with questions about information associated with your use.</p>
+    <p>The Bot operates through Telegram and may rely on hosting or other technical providers. Those services have their own terms and privacy policies, which we do not control.</p>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 2M21 12a9 9 0 1 1-2.6-6.4M21 4v5h-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><h2>9. Policy updates</h2><p class="eyebrow">Latest version published here</p></div></div>
+    <p>This policy may be updated if the Bot’s features or information practices change. The latest version and effective date will be published on this page. Please review it periodically.</p>
+  </section>
+
+  <section class="card" id="contact">
+    <div class="card-head"><div class="card-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v14H4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div><div><h2>10. Contact &amp; privacy requests</h2><p class="eyebrow">Reach the bot operator</p></div></div>
+    <p>For privacy questions, data requests, or concerns about Protection Bot, contact the operator through the Telegram contact below.</p>
+    <a class="contact-link" href="https://t.me/copyright_infrigment_saverx_bot" target="_blank" rel="noopener noreferrer">✈ @copyright_infrigment_saverx_bot</a>
+    <p class="placeholder">If you have a dedicated support email, add it here before publishing.</p>
+  </section>
+
+  <footer>© <span id="year">2026</span> Protection Bot · Privacy Policy<br>Clear information. Responsible use. Better privacy.</footer>
+</main>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
